@@ -1,0 +1,6 @@
+apiVersion: "pipelinesascode.tekton.dev/v1alpha1"
+kind: Repository
+metadata:
+  name: test-rhtap1-sept12-gitops-repository
+spec:
+  url: https://github.com/jdubrick-ai/test-rhtap1-sept12-gitops
